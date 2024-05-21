@@ -22,9 +22,7 @@ padre-police
     "weapon": {
         "id": 1   
     },
-    "places": {
-        "id": 1   
-    }
+    
 }
 
 hijo-place
