@@ -43,3 +43,7 @@ hijo-place
 url:http://localhost:8012/swagger-ui/index.html#/
 ![image](https://github.com/Bsteven593/policiabryan/assets/110885930/dcc9b8f8-2b70-43a7-a6a3-2fb7f133e556)
 
+
+EL DELETE POR EL NOMBRE NO ME SALIO
+
+
