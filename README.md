@@ -1,3 +1,4 @@
+url post= http://localhost:8012/api/v2/weapons
 weapons
 {
     "name": "Pistol",
@@ -5,12 +6,14 @@ weapons
     "power": "High"
 }
 
+url post= http://localhost:8012/api/v2/patrols
 patrols
 {
     "plate": "ABC-123",
     "category": "Sedan"
 }
 
+url post= http://localhost:8012/api/v2/police
 padre-police
 {
     "name": "Nombre del policía",
@@ -24,6 +27,8 @@ padre-police
     },
     
 }
+
+url post= http://localhost:8012/api/v2/place
 
 hijo-place
 {
@@ -43,5 +48,6 @@ url:http://localhost:8012/swagger-ui/index.html#/
 
 
 EL DELETE POR EL NOMBRE NO ME SALIO
+http://localhost:8012/api/v2/police/nombre
 
 
