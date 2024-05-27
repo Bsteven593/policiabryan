@@ -1,5 +1,7 @@
 package com.example.policiabryan.entities;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,7 +22,10 @@ public class WeaponBryan {
     public String name;
     @Column(name = "code")
     public Number code;
-    @Column(name = "power")
-    public String power;
+    @Column(name = "date")
+    public LocalDate date;
+    @Column(name = "stady")
+    public Boolean stady;
+
 
 }

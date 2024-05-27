@@ -40,7 +40,8 @@ public class WeaponBryanService {
 
             if (weaponExist.getName() != null) weaponExist.setName(weaponUpdate.getName());
             if (weaponExist.getCode() != null) weaponExist.setCode(weaponUpdate.getCode());
-            if (weaponExist.getPower() != null) weaponExist.setPower(weaponUpdate.getPower());
+            if (weaponExist.getDate() != null) weaponExist.setDate(weaponUpdate.getDate());
+            if (weaponExist.getStady() != null) weaponExist.setStady(weaponUpdate.getStady());
             WeaponBryan weaponSave = save(weaponExist);
             return ResponseEntity.ok(weaponSave);
          }catch (Exception e){
